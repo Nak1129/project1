@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* 引進語法 */
+@font-face {
+  /* 語法命名 */
+  font-family: "myfont";
+  src: url(/清松手寫體1.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "myfont";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+}
+
+header div.top {
+  background-image: url(./images/background.png);
+  padding: 1rem;
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+main.no-flex {
+  display: block;
+}
+
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.active {
+  color: yellow;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  padding: 1rem;
+}
+
+section.left {
+  flex: 1 1 200px;
+}
+
+section.left img {
+  flex: 1 1 200px;
+  width: 90%;
+}
+
+select.left table,
+tr,
+td {
+  padding: 0.25rem;
+}
+
+section.right {
+  flex: 4 1 500px;
+}
+
+section.right h3 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+p {
+  padding: 0.5rem 1rem;
+}
+
+section.right ul {
+  margin-left: 2rem;
+}
+
+.player {
+  border: 3px solid gold;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.player h1 {
+  color: aqua;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.player h3 {
+  color: rgb(28, 207, 207);
+  font-size: 1rem;
+}
+
+div.japan {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+div.japan img {
+  flex: 1 1 300px;
+  width: 60vh;
+}
+
+div.japan .info {
+  flex: 3 1 600px;
+  padding: 1.5rem;
+}
+
+div.text h3 {
+  font-size: 2rem;
+  color: aquamarine;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+div.competition {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.text {
+  flex: 5 1 300px;
+}
+
+#piechart {
+  flex: 1 1 300px;
+}
+
+section.taiwan h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+
+.china h3 {
+  color: rgb(12, 122, 92);
+  font-size: 2rem;
+}
+
+.china table,
+th,
+td {
+  // border: 1px solid rgb(13, 26, 204);
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+
+.china table {
+  min-width: 1000px;
+}
+
+.china th {
+  background-color: rgb(86, 224, 192);
+  color: white;
+}
+
+.taiwan ul {
+  margin-left: 2rem;
+} /*# sourceMappingURL=style.css.map */
